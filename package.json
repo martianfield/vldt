@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/martianfield/vldt/issues"
   },
-  "homepage": "https://github.com/martianfield/vldt#readme"
+  "homepage": "https://github.com/martianfield/vldt#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
 }
