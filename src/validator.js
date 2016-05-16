@@ -3,8 +3,10 @@
 const parser = require(__dirname + '/parser')
 
 class Validator {
-  constructor(raw) {
-    this.raw = raw
+  constructor(definition) {
+    let parsed = parser.parse(definition)
+    this.fields = parsed.fields
+    this.type = parsed.type
   }
 
   validate(obj) {
@@ -15,3 +17,5 @@ class Validator {
     
   }
 }
+
+module.exports = Validator

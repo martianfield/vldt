@@ -2,16 +2,29 @@
 
 const Field = require(__dirname + '/field')
 
+/**
+ * 
+ * @param definition
+ * @returns a Validator object
+ */
 function parse(definition) {
   let result = {}
   // did we get a string or object?
   if(typeof definition === 'string') {
     let field = parseFieldDefinition(definition)
-    result.type = 'field'
+    result.type = 'single'
     result.fields = [field]
   }
   else if (typeof definition === 'object' ) {
     result.type = 'group'
+    result.fields = []
+    for(let item in definition) {
+      if(definition.hasOwnProperty(item)) {
+        let field = parseFieldDefinition(definition[item])
+        field.name = item
+        result.fields.push(field)
+      }
+    }
   }
   else {
     result.type = 'unknown'
@@ -33,9 +46,6 @@ function parseFieldDefinition(definition) {
   definition = definition.trim()
   let prefix = getPrefix(definition)
   definition = definition.substring(prefix.size) // now that we have the prefix, we can get rid of it in the definition
-
-  // name
-  field.name = undefined
 
   // required, hidden, unique
   field.isRequired = prefix.has('*')

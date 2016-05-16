@@ -17,7 +17,7 @@ describe('parser', () => {
     let result_object = parser.parse(def_object)
     let result_undefined = parser.parse(def_undefined)
     // assert
-    expect(result_string.type).to.equal('field')
+    expect(result_string.type).to.equal('single')
     expect(result_object.type).to.equal('group')
     expect(result_undefined.type).to.equal('unknown')
   })
@@ -97,6 +97,22 @@ describe('parser', () => {
       expect(f_array_max.isArray).to.equal(true)
       expect(f_array_max.max).to.equal(10)
 
+    })
+  })
+
+  describe('Group', () => {
+    it('test1', () => {
+      // arrange
+      let definition = {
+        name: '*string',
+        age: 'int>0'
+      }
+      // act
+      let parsed = parser.parse(definition)
+      // assert
+      expect(parsed.fields.length).to.equal(2)
+      expect(parsed.fields.find(field => field.name === 'name').type).to.equal('string')
+      expect(parsed.fields.find(field => field.name === 'age').type).to.equal('int')
     })
   })
 })
