@@ -3,6 +3,7 @@
 const expect = require('chai').expect
 const Validator = require(__dirname + '/../src/validator')
 
+
 describe('Validator', () => {
 
   it('single vs group', () => {
@@ -13,9 +14,8 @@ describe('Validator', () => {
       'age': 'int>0'
     })
     // assert
-    expect(v_single.type).to.equal('single')
     expect(v_single.fields.length).to.equal(1)
-    expect(v_group.type).to.equal('group')
     expect(v_group.fields.length).to.equal(2)
   })
+
 })
