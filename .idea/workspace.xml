@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a9bbdc-d4c3-4b5f-8840-4110c8095d63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/validators/email.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/validators/email.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/validators/number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/validators/number.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vldt.iws" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="bool.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/validators/bool.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -55,11 +55,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="email.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="email.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/validators/email.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="323">
+              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="47" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="number.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/validators/number.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="number.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/validators/number.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -97,6 +117,8 @@
         <option value="$PROJECT_DIR$/src/validators/bool.js" />
         <option value="$PROJECT_DIR$/src/validators/email.js" />
         <option value="$PROJECT_DIR$/test/validators/email.js" />
+        <option value="$PROJECT_DIR$/src/validators/number.js" />
+        <option value="$PROJECT_DIR$/test/validators/number.js" />
       </list>
     </option>
   </component>
@@ -392,44 +414,44 @@
       <updated>1463211217398</updated>
       <workItem from="1463211218748" duration="1078000" />
       <workItem from="1463376774749" duration="15546000" />
-      <workItem from="1463596584430" duration="2401000" />
+      <workItem from="1463596584430" duration="4430000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All - 2016.05.16 at 12h 16m 42s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 09m 08s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All - 2016.05.16 at 12h 21m 24s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 10m 27s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All - 2016.05.16 at 12h 25m 01s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 13m 30s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All - 2016.05.18 at 20h 37m 14s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 14m 01s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All - 2016.05.18 at 20h 38m 32s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 15m 52s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All - 2016.05.18 at 20h 38m 44s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 18m 15s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All - 2016.05.18 at 20h 43m 23s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 18m 30s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All - 2016.05.18 at 20h 43m 53s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 18m 49s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All - 2016.05.18 at 20h 55m 36s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 19m 06s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="All - 2016.05.18 at 20h 55m 50s.xml">
+    <history-entry file="All - 2016.05.19 at 06h 19m 49s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19025000" />
+    <option name="totallyTimeSpent" value="21054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,9 +470,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33038348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33038348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23156342" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23156342" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -680,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/validators/bool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="22" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/validators/email.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -704,10 +718,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/validators/bool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/validators/email.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="323">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/validators/number.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/validators/number.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
           <folding />
         </state>
       </provider>
