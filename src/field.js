@@ -19,6 +19,8 @@ class Field {
       'bool':require(__dirname + '/validators/bool'),
       'email':require(__dirname + '/validators/email'),
       'number':require(__dirname + '/validators/number'),
+      'float':require(__dirname + '/validators/float'),
+      'int':require(__dirname + '/validators/int'),
       'unknown':require(__dirname + '/validators/unknown')
     }
     let method = validatorMethods[this.type] ? validatorMethods[this.type] : validatorMethods['unknown']
