@@ -1,9 +1,9 @@
 'use strict'
 
 const expect = require('chai').expect
-const validate = require(__dirname + '/../../src/validators/number')
+const validate = require(__dirname + '/../../src/validators/float')
 
-describe("Number Validator", () => {
+describe("Float Validator", () => {
   it('required', () => {
     // arrange
     let field = {isRequired: true}
