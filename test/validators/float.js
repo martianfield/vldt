@@ -37,7 +37,7 @@ describe("Float Validator", () => {
     })
   })
 
-  it('invalid format', () => {
+  it('invalid type', () => {
     // arrange
     let field = {isRequired: true}
     // act
@@ -48,7 +48,7 @@ describe("Float Validator", () => {
     // assert
     results.forEach(result => {
       expect(result.isValid).to.equal(false)
-      expect(result.errors[0].reason).to.equal('format')
+      expect(result.errors[0].reason).to.equal('type')
     })
   })
 

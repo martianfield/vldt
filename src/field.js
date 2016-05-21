@@ -14,6 +14,16 @@ class Field {
   }
 
   validate(value) {
+    if(this.isArray) {
+      let method = require(__dirname + '/validators/array')
+      return method(value, this)
+    }
+    else {
+      return this.typeValidate(value, this)
+    }
+  }
+
+  typeValidate(value) {
     const validatorMethods = {
       'string':require(__dirname + '/validators/string'),
       'bool':require(__dirname + '/validators/bool'),
@@ -24,7 +34,8 @@ class Field {
       'unknown':require(__dirname + '/validators/unknown')
     }
     let method = validatorMethods[this.type] ? validatorMethods[this.type] : validatorMethods['unknown']
-    return method(value, this)
+    let result = method(value, this)
+    return result
   }
 
   static create(definition) {

@@ -13,11 +13,11 @@ function validate(value, field) {
   }
   else {
     if(isNaN(Number(value))) {
-      result.errors.push({message:'value is not numeric', reason:'format'})
+      result.errors.push({message:'value is not numeric', reason:'type'})
     }
     else {
       if(Number(value) % 1 !== 0) {
-        result.errors.push({message:'not an integer', reason:'format'})
+        result.errors.push({message:'not an integer', reason:'type'})
       }
       if(field.min) {
         if(Number(value) < field.min) {

@@ -48,7 +48,7 @@ describe("Number Validator", () => {
     // assert
     results.forEach(result => {
       expect(result.isValid).to.equal(false)
-      expect(result.errors[0].reason).to.equal('format')
+      expect(result.errors[0].reason).to.equal('type')
     })
   })
 
