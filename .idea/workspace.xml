@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a9bbdc-d4c3-4b5f-8840-4110c8095d63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/validators/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/validators/array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/field.js" afterPath="$PROJECT_DIR$/src/field.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/validators/float.js" afterPath="$PROJECT_DIR$/src/validators/float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/validators/int.js" afterPath="$PROJECT_DIR$/src/validators/int.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/validators/number.js" afterPath="$PROJECT_DIR$/src/validators/number.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/validators/float.js" afterPath="$PROJECT_DIR$/test/validators/float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/validators/int.js" afterPath="$PROJECT_DIR$/test/validators/int.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/validators/number.js" afterPath="$PROJECT_DIR$/test/validators/number.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="vldt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,16 +24,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="array.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/validators/array.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="array.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/validators/array.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -52,83 +33,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bool.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/validators/bool.js">
+      <file leaf-file-name="array.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/validators/array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="429">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="float.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/validators/float.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="463">
+                <caret line="78" column="99" selection-start-line="78" selection-start-column="99" selection-end-line="78" selection-end-column="99" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="int.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/validators/int.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="number.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/validators/number.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="number.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/validators/number.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="float.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/validators/float.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/validators/string.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="int.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/validators/int.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-              <folding />
-            </state>
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -149,7 +76,6 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/group.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/validators/string.js" />
         <option value="$PROJECT_DIR$/test/validators/string.js" />
@@ -163,7 +89,6 @@
         <option value="$PROJECT_DIR$/src/validators/bool.js" />
         <option value="$PROJECT_DIR$/src/validators/email.js" />
         <option value="$PROJECT_DIR$/test/validators/email.js" />
-        <option value="$PROJECT_DIR$/test/validators/array.js" />
         <option value="$PROJECT_DIR$/src/field.js" />
         <option value="$PROJECT_DIR$/src/validators/array.js" />
         <option value="$PROJECT_DIR$/src/validators/float.js" />
@@ -172,6 +97,8 @@
         <option value="$PROJECT_DIR$/test/validators/float.js" />
         <option value="$PROJECT_DIR$/test/validators/int.js" />
         <option value="$PROJECT_DIR$/test/validators/number.js" />
+        <option value="$PROJECT_DIR$/test/validators/array.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -521,7 +448,7 @@
       <workItem from="1463211218748" duration="1078000" />
       <workItem from="1463376774749" duration="15546000" />
       <workItem from="1463596584430" duration="5825000" />
-      <workItem from="1463753626061" duration="5858000" />
+      <workItem from="1463753626061" duration="7191000" />
     </task>
     <servers />
   </component>
@@ -535,20 +462,17 @@
     <history-entry file="All - 2016.05.21 at 05h 36m 41s.xml">
       <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Array_Validator_Items_not_correct_type - 2016.05.20 at 17h 41m 32s.xml">
-      <configuration name="Array Validator.Items not correct type" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="All - 2016.05.21 at 05h 36m 53s.xml">
+      <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Array_Validator_Items_not_correct_type - 2016.05.20 at 17h 44m 08s.xml">
-      <configuration name="Array Validator.Items not correct type" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="All - 2016.05.21 at 05h 38m 26s.xml">
+      <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Array_Validator_Items_not_correct_type - 2016.05.21 at 05h 26m 46s.xml">
-      <configuration name="Array Validator.Items not correct type" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="All - 2016.05.21 at 05h 39m 27s.xml">
+      <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Array_Validator_Items_not_correct_type - 2016.05.21 at 05h 29m 54s.xml">
-      <configuration name="Array Validator.Items not correct type" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Array_Validator_Items_not_correct_type - 2016.05.21 at 05h 32m 26s.xml">
-      <configuration name="Array Validator.Items not correct type" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="All - 2016.05.21 at 05h 39m 29s.xml">
+      <configuration name="All" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="Array_Validator_Items_not_correct_type - 2016.05.21 at 05h 32m 56s.xml">
       <configuration name="Array Validator.Items not correct type" configurationId="mocha-javascript-test-runner" />
@@ -556,9 +480,12 @@
     <history-entry file="Array_Validator_Items_not_correct_type - 2016.05.21 at 05h 33m 29s.xml">
       <configuration name="Array Validator.Items not correct type" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Array_Validator_Items_not_correct_type - 2016.05.21 at 05h 38m 59s.xml">
+      <configuration name="Array Validator.Items not correct type" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28307000" />
+    <option name="totallyTimeSpent" value="29640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,9 +504,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2581121" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2581121" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14510167" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14454277" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39823008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -598,37 +525,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/validators/array.js</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/validators/array.js</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/validators/array.js</url>
-          <line>42</line>
+          <line>52</line>
           <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/validators/array.js</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/field.js</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="mocha-javascript-test-runner">
@@ -787,20 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/group.js" />
     <entry file="file://$PROJECT_DIR$/src/validators/unknown.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -890,22 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/validators/array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/validators/array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/validators/bool.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -964,10 +840,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/validators/number.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="-341">
           <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/validators/array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/validators/array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="463">
+            <caret line="78" column="99" selection-start-line="78" selection-start-column="99" selection-end-line="78" selection-end-column="99" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
